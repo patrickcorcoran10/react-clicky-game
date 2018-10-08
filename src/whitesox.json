@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "name": "Tim Anderson",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/8/8b0ef2c7_mlbam.jpg",
+        "position": "Short-Stop",
+        "number": "7",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Yoan Moncada",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/a/a1f9b20b_mlbam.jpg",
+        "position": "Second Base",
+        "number": "10",
+        "clicked": false
+
+    },
+    {
+        "id": 3,
+        "name": "Jose Abreu",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/9/93df872d_mlbam.jpg",
+        "position": "First Base",
+        "number": "79",
+        "clicked": false
+
+    },
+    {
+        "id": 4,
+        "name": "Avi Garcia",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/4/4ae4ef0f_mlbam.jpg",
+        "position": "Rightfield",
+        "number": "26",
+        "clicked": false
+
+    },
+    {
+        "id": 5,
+        "name": "Omar Narváez",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/c/c12b8b7a_mlbam.jpg",
+        "position": "Catcher",
+        "number": "32",
+        "clicked": false
+
+    },
+    {
+        "id": 6,
+        "name": "Lucas Giolito",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/0/022e27bb_mlbam.jpg",
+        "position": "Starting Pitcher",
+        "number": "27",
+        "clicked": false
+
+    },
+    {
+        "id": 7,
+        "name": "Carlos Rodon",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/5/54ae54d8_mlbam.jpg",
+        "position": "Starting Pitcher",
+        "number": "55",
+        "clicked": false
+
+    },
+    {
+        "id": 8,
+        "name": "Reynaldo Lopez",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/0/0f4ac975_mlbam.jpg",
+        "position": "Starting Pitcher",
+        "number": "40",
+        "clicked": false
+
+    },
+    {
+        "id": 9,
+        "name": "Wellington Castillo",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/c/c602b515_mlbam.jpg",
+        "position": "Catcher",
+        "number": "21",
+        "clicked": false
+
+    },
+    {
+        "id": 10,
+        "name": "Daniel Palka",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/c/cc0574cc_mlbam.jpg",
+        "position": "Rightfield",
+        "number": "18",
+        "clicked": false
+
+    },
+    {
+        "id": 11,
+        "name": "Nate Jones",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/c/c0897bfc_mlbam.jpg",
+        "position": "Relief Pitcher",
+        "number": "65",
+        "clicked": false
+
+    },
+    {
+        "id": 12,
+        "name": "Yolmar Sanchez",
+        "image": "https://d3k2oh6evki4b7.cloudfront.net/req/201809201/images/headshots/2/28b3d53d_mlbam.jpg",
+        "position": "Utility",
+        "number": "5",
+        "clicked": false
+
+    }
+]
