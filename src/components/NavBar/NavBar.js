@@ -4,14 +4,11 @@ import "./NavBar.css";
 
 const Navbar = props => (
     <div>
-    <nav className="navbar">
-      
+    <nav>
       <p className="message">{props.message}</p>
       <br/>
-      <p className="scores">Score: 
-      {props.score} 
-      | Top Score: 
-      {props.topscore}
+      <p className="scores">
+      Score:  {props.score}    |    Top Score:  {props.topscore}
       </p>
     </nav>
     </div>

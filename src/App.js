@@ -28,7 +28,7 @@ class App extends Component {
     const findPlayer = this.state.unclicked.find(item => item.id === picked)
     if (findPlayer === undefined) {
       this.setState({
-        message: "You guessed incorrectly",
+        message: "You guessed incorrectly, start OVA!",
         topscore: (this.state.score > this.state.topscore) ? this.state.score : this.state.topscore,
         score: 0,
         whitesox: whitesox,

@@ -11,13 +11,15 @@
   }
 
   .message {
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 25px;
+
   }
 
   .scores {
-    text-align: right;
+    text-align: center;
     color: white;
     font-size: 25px;
+
   }
