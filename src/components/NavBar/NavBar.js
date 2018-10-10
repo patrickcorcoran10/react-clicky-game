@@ -2,16 +2,18 @@ import React from "react";
 import "./NavBar.css";
 
 
-const Navbar = () => (
+const Navbar = props => (
+    <div>
     <nav className="navbar">
-      <p>Pick-to-Click Game</p>
-      <p>Click an Image to Begin</p>
-      <p>Score: 
-      {/* {score}  */}
+      
+      <p className="message">{props.message}</p>
+      <p className="scores">Score: 
+      {props.score} 
       | Top Score: 
-      {/* {topScore}  */}
+      {props.topscore}
       </p>
     </nav>
+    </div>
   );
   
   export default Navbar;

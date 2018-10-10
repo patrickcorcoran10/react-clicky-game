@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 
 const Card = props => (
-    <div className="card">
+    <div className="card" onClick={() => props.click(props.picked)}> 
         <div>
             <img alt={props.name} src={props.image} />
         </div>
@@ -19,8 +19,6 @@ const Card = props => (
                 </li>
             </ul>
         </div>
-    <span onClick={() => props.clickLogic(props.id)} className="click">
-    </span>
     </div>  
 )
 
