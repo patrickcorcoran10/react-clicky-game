@@ -16,9 +16,6 @@ class App extends Component {
     unclicked: whitesox
   };
 
-  // componentDidMount() {
-
-  // };
 
   shuffle = array => {
     for (let i =array.length - 1; i > 0; i--) {
@@ -28,7 +25,7 @@ class App extends Component {
   };
 
   click = picked => {
-    const findPlayer = this.state.unclicked.find(item => item.picked === picked)
+    const findPlayer = this.state.unclicked.find(item => item.id === picked)
     if (findPlayer === undefined) {
       this.setState({
         message: "You guessed incorrectly",
@@ -39,7 +36,7 @@ class App extends Component {
       });
     }
     else {
-      const newUnclicked = this.state.unclicked.filter(item => item.picked !== picked);
+      const newUnclicked = this.state.unclicked.filter(item => item.id !== picked);
 
       this.setState({
         message: "Nice Pick",
@@ -71,7 +68,6 @@ class App extends Component {
           image={player.image}
           position={player.position}
           number={player.number}
-          // clicked={player.clicked}
           />
         ))}
       </Wrapper>

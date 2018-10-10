@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 
 const Card = props => (
-    <div className="card" onClick={() => props.click(props.picked)}> 
+    <div className="card" onClick={() => props.click(props.id)}> 
         <div>
             <img alt={props.name} src={props.image} />
         </div>

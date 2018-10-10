@@ -7,6 +7,7 @@ const Navbar = props => (
     <nav className="navbar">
       
       <p className="message">{props.message}</p>
+      <br/>
       <p className="scores">Score: 
       {props.score} 
       | Top Score: 
